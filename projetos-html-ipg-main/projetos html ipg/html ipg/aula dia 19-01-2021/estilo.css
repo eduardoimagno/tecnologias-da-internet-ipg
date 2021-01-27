@@ -1,0 +1,22 @@
+.nav1{
+    height: 10vh;
+    background-color: #413AA4;
+    color:rgb(221, 221, 221);
+}
+.nav2{
+    height: 10vh;
+    border: 1px solid red;
+}
+.py-1{
+    margin-bottom: (spacer * .25) !important;
+    margin-top: (spacer * .25) !important;
+}
+.bg1{
+    background-color: #F5F7FC;
+}
+.bg-image{
+    background-image: url(https://demo.jsnorm.com/html/tizara/dist/img/c1bg.jpg);
+}
+.color-white{
+    color:white;
+}

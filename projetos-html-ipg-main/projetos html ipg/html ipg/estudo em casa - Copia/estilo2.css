@@ -1,0 +1,430 @@
+
+body {
+    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Heebo', sans-serif;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    background-color: white;
+}
+
+html {
+    font-size: 80%;
+}
+
+.cabecalho {
+    background-color: #fdf5e6;
+    background-image: url(_imagens/homen-cabecalho.png);
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: right;
+    min-height: 100vh;
+}
+.button {
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    background-color: #008CBA;
+  }
+  
+
+.cabecalho2 {
+    background-image: url(https://mitech.thememove.com/wp-content/uploads/2019/02/home-infotechno-video-intro-bg.jpg);
+    background-size: auto;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    overflow: hidden;
+    min-width: 500px;
+}
+
+.menu {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
+    grid-gap: 2%;
+    background-color: white;
+    margin: auto;
+    width: 100%;
+    font-size: 1.5rem;
+    justify-content: space-evenly;
+    min-width: 2vh;
+}
+
+a:link,
+a:hover,
+a:active,
+a:visited {
+    color: black;
+    text-decoration: none;
+}
+
+.menu a:hover,
+a:active {
+    border: 1px solid black;
+    padding: 5px;
+}
+.pos-cabecalho a:hover{
+    color: rgba(134, 134, 134, 0.733);
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+}
+
+.margin-auto{
+    margin: auto;
+}
+
+.red {
+    color: rgb(255, 4, 4);
+}
+
+.white {
+    color: white;
+}
+
+.blue {
+    color: rgb(0, 89, 255);
+}
+
+.font-size {
+    font-size: 40px;
+}
+
+.cont-cabecalho {
+    margin-top: 15vh;
+    margin-left: 5vw;
+    font-size: 2rem;
+}
+
+.pos-cabecalho {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
+    grid-template-rows: 1fr;
+    grid-gap: 2%;
+    background-color: white;
+    overflow: hidden;
+}
+
+
+.pos-cabecalho-cont1 {
+    width: 100%;
+    min-height: 25vh;
+    background-image: url(_imagens/img-pos-cabecalho.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.pos-cabecalho-cont2 {
+    width: 100%;
+    min-height: 25vh;
+    background-image: url(_imagens/img-pos-cabecalho2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.pos-cabecalho-cont3 {
+    width: 100%;
+    min-height: 25vh;
+    background-image: url(_imagens/img-pos-cabecalho3.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.pos-cabecalho-cont4 {
+    width: 100%;
+    min-height: 25vh;
+    background-image: url(_imagens/img-pos-cabecalho4.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.pos-cabecalho-cont5 {
+    width: 100%;
+    min-height: 25vh;
+    background-image: url(_imagens/img-pos-cabecalho5.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.pos-cabecalho-cont6 {
+    width: 100%;
+    min-height: 25vh;
+    background-image: url(_imagens/img-pos-cabecalho6.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.primeira-div-pos-cabecalho {
+    margin-top: 0;
+    min-height: 50vh;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 350px));
+    justify-content: space-evenly;
+    background-color: #f8f8f8;
+    margin-bottom: 0;
+}
+
+.cont-rodape-primeira-div-pos-cabecalho {
+    background-color: #f8f8f8;
+    text-align: center;
+}
+
+.conjunto-coluna-pos-cabecalho {
+    min-height: 70vh;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 350px));
+    grid-template-rows: 1fr;
+    background-color:white ;
+    justify-content: space-evenly;
+    
+}
+.conteudo-colunas{
+    font-size: 1.2rem;
+    border-left: 1px solid rgb(194, 194, 194) ;
+}
+.font-size-conjunto-colunas{
+    font-size: 2rem;
+}
+.conteudo-colunas-border-rigth{
+    border-right: 1px solid rgb(196, 196, 196) ;
+}
+.color-bege{
+    color:  #ffb62e;
+}
+.cont1-primeira-div-pos-cabecalho {
+    padding-top: 15vh;
+    font-size: 2rem;
+    background-color: #f8f8f8;
+    margin-bottom: 0;
+    margin-top: 0;
+    
+}
+.bg-white{
+    background-color: white;
+}
+
+.cont-primeira-div-pos-cabecalho {
+    
+    
+}
+
+.black {
+    background-color: rgb(212, 212, 212);
+    text-align: center;
+}
+
+.mm {
+    margin-top: 0;
+    min-width: 30%;
+    font-size: 20px;
+}
+
+.segunda-div1-pos-cabecalho {
+    min-height: 60vh;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 500px));
+    background-image: url( https://mitech.thememove.com/wp-content/uploads/2019/02/mitech-home-infotechno-section-company-bg.png);
+    background-repeat: no-repeat;
+    justify-content: space-evenly;
+}
+
+.cont-segunda-div-pos-cabecalho {
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.segunda-div2-pos-cabecalho {
+    background-image: url( https://mitech.thememove.com/wp-content/uploads/2019/02/mitech-home-infotechno-section-company-bg.png);
+    background-repeat: no-repeat;
+    min-height: 60vh;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 400px));
+    grid-template-rows: 1fr;
+    grid-gap: 2%;
+    overflow: hidden;
+    background-color: rgb(247, 247, 247);
+    min-width: 600px;
+    justify-content: space-evenly;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.cont-segunda-div2-pos-cabecalho {
+    text-align: center;
+}
+
+.terceira-div-pos-cabecalho {
+    background-image: url(https://mitech.thememove.com/wp-content/uploads/2019/03/mitech-home-infotechno-case-study-section-bg.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+    min-height: 10vh; 
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 400px));
+    grid-gap: 2%;
+    overflow: hidden;
+    min-width: 600px;
+    justify-content:space-evenly;
+}
+
+.cont-terceira-div-pos-cabecalho {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-gap: 2%;
+    overflow: hidden;
+}
+
+.cont1-terceira-div-pos-cabecalho {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 2%;
+    overflow: hidden;
+    text-align: center;
+    background-image: url(https://mitech.thememove.com/wp-content/uploads/2019/03/mitech-home-infotechno-case-study-section-bg.png);
+    background-repeat: no-repeat;
+    min-width: 400px;
+}
+
+.text-aline-center {
+    text-align: center;
+}
+
+.border {
+
+}
+
+.cont-cabecalho-centro {
+    width: 40%;
+    margin-left: 40%;
+    margin-top: 10vh;
+}
+
+.quarta-div-pos-cabecalho {
+    min-height: 80vh;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 400px));
+    grid-gap: 2%;
+    overflow: hidden;
+    background-color: #f6f2ed;
+    text-align: center;
+    min-width: 720px;
+    justify-content: space-evenly;
+}
+
+.cont-quarta-div-pos-cabecalho {
+    background-color: #f6f2ed;
+}
+
+.cont2-quarta-div-pos-cabecalho {
+    background-color: white;
+    height: 50vh;
+}
+
+.quinta-div-pos-cabecalho {
+    min-height: 80vh;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 400px));
+    grid-gap: 2%;
+    overflow: hidden;
+    padding-top: 20vh;
+    min-width: 700px;
+    justify-content: space-evenly;
+}
+.quinta-div-pos-cabecalho > a:link ,a:hover{
+    border:1px solid black;
+}
+.font-size-quinta-div-pos-cabecalho{
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.sexta-div-pos-cabecalho {
+    min-height: 75vh;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 600px));
+    overflow: hidden;
+    background-image: url( https://mitech.thememove.com/wp-content/uploads/2019/02/home-infotechno-contact-bg.jpg);
+    font-size: 15px;
+    justify-content: space-evenly;
+}
+
+.cont-sexta-div-pos-cabecalho {
+    padding-top: 10vh;
+    padding-right: 20%;
+
+}
+
+.cont2-sexta-div-pos-cabecalho {
+    padding-top: 30vh;
+    padding-right: 20%;
+    margin-left:30%;
+    text-align:center;
+}
+.margin-top{
+    margin-top:35%;
+}
+
+.border-sexta-div {
+    padding-left: 5%;
+    border-left: 3px solid rgba(201, 187, 0, 0.726);
+}
+
+.pre-rodape {
+    min-height: 45vh;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(170px,200px));
+    overflow: hidden;
+    font-size: 13px;
+    justify-content: space-evenly;
+}
+
+.cont-pre-roda-pe {
+    padding: 20%;
+    overflow: hidden;
+}
+
+.cont2-pre-roda-pe {
+    padding-top: 25vh;
+}
+
+.roda-pe {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(170px,450px));
+    min-height:20vh;
+    width:100%;
+    justify-content: space-between;
+}
+.font-size-icons{
+    font-size:3rem;
+    margin-top: 5vh;
+}
+.font-size-icons2{
+    font-size:5rem;
+    margin-top: 5vh;
+}
+.font-size-rodape{
+    font-size: 20px;
+    margin-top: auto;
+    margin-bottom:auto;
+}
+.font-size2{
+    font-size: 25px;
+}
+.black2{
+    color: black;
+}
+.grey{
+    color: rgb(121, 121, 121);
+}
+.cont-segunda-div-pos-cabecalho >  a:hover{
+    color:blue;
+}
+.pading-top{
+    padding-top:20vh;
+    padding-bottom:auto;
+}

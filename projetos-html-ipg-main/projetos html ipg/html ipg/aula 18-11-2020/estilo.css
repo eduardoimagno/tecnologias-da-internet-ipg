@@ -1,0 +1,61 @@
+body{
+    background-color: mediumseagreen;
+}
+div{
+    border: 10px solid white;
+    padding: 30px;
+    margin: 40px 20% 0px 20%;
+}
+ul{
+    list-style: none;
+}
+li{
+    list-style: none;
+    display: inline;
+}
+a.l1{
+    color: black;
+
+}
+a:hover.l1{
+    color: rgb(108, 108, 255);
+    text-decoration: underline;
+}
+a.l2{
+    background-color: blue;
+    color: white;
+    text-decoration: none;
+}
+a:hover.l2{
+    text-decoration: underline;
+    background-color: green;
+}
+a.l3{
+    background-color: white;
+    color: black;
+}
+a:hover.l3{
+    color:white;
+    text-decoration: none;
+    background-color: green;
+    
+}
+a.l4{
+    background-color: tomato;
+    color: white;
+}
+a:hover.l4{
+    background-color: rgb(255, 67, 34);
+    color: white;
+}
+.bg1{
+    background-color: grey;
+    color: white;
+    font-size: 30px;
+}
+.bg2{
+    background-color: rgb(2, 2, 143);
+    font-size: 100px;
+    font-family: 'Teko', sans-serif;
+    text-align:center;
+}

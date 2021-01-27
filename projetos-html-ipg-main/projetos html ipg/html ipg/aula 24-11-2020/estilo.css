@@ -1,0 +1,30 @@
+.div1{
+    background-color: rgb(100, 100, 100);
+    width: 80%;
+    height: 50vh;
+    position: relative;    
+    margin-left:auto;
+    margin-right:auto;
+}
+.div2{
+    background-color: rgb(3, 167, 3);
+    width: 25%;
+    height: 25%;
+    position: absolute;
+    right: 0;
+}
+.div3{
+    background-color: rgb(3, 167, 3);
+    width: 25%;
+    height: 25%;
+    position: absolute;
+    left: 0;
+}
+.div4{
+    background-color: rgb(241, 0, 0);
+    width: 40%;
+    height: 25%;
+    position: absolute;
+    right: 28%;
+    top: 30vh;
+}
