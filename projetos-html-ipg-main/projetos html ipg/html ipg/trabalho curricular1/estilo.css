@@ -14,9 +14,9 @@ a:link,a:hover,a:visited, ul, li{
     text-decoration:none;
     list-style: none;
 }
-.border{
-    
-}
+/*.border{
+    border:1px solid red;
+}*/
 .menu{
     position: sticky;
     top: 0;
@@ -107,7 +107,7 @@ a:link,a:hover,a:visited, ul, li{
 }
 .section1{
     position: relative;
-    bottom:-8vh;
+    top:-10vh;
     background-color: #f9f7f0;
     height: 100vh;
     width: 80vw;
